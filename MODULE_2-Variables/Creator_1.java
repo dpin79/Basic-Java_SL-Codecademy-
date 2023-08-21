@@ -1,5 +1,8 @@
- public class Creator_1{       //SAME NAME WITH THE FILE BY ITSELF
-    public static void main(String[] args) {
-        System.out.println("Printing Test");
-    }
- }
+ public class Creator_1 {
+	public static void main(String[] args) {
+    String name = "James Gosling";
+    int yearCreated = 1995;
+    System.out.println(name);
+    System.out.println(yearCreated);
+	}
+}
