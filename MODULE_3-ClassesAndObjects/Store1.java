@@ -1,4 +1,4 @@
-public class Store{
+public class Store1{
   //instances
 
   String name;
@@ -6,7 +6,7 @@ public class Store{
   boolean open;
 
   //constructors
-  public Store(String currentName, int selledNumber, boolean Open){
+  public Store1(String currentName, int selledNumber, boolean Open){
     name = currentName;
     selledAmount = selledNumber;
     open = Open;
@@ -14,12 +14,12 @@ public class Store{
   }
   //main
   public static void main(String[]args){
-    Store clothesShop = new Store("Koaj",1000,true);
+    Store1 clothesShop = new Store1("Koaj",1000,true);
 
-    Store lemonadeStore = new Store("icyLemon",200,false);
-
-    Store techStore = new Store("Alkosto", 2000, true);
-    
+    Store1 lemonadeStore = new Store1("icyLemon",200,false);
+     
+    Store1 techStore = new Store1("Alkosto", 2000, true);
+    /*
     System.out.println("\n");
 
     System.out.println("First shop named: " + clothesShop.name + " has selled " + clothesShop.selledAmount + " and if you wanna know it´s open, that is " + clothesShop.open);
@@ -29,6 +29,7 @@ public class Store{
   
     System.out.println("");
     System.out.println("Third shop named: " + techStore.name + " has selled " + techStore.selledAmount + " and if you wanna know it´s open, that is " + techStore.open);
+    */
   }
 
 }
