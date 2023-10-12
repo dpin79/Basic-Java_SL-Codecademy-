@@ -26,5 +26,6 @@ public class Store13 {
     Store13 lemonadeStand = new Store13("Lemonade", 3.75);
     double lemonadePrice = lemonadeStand.getPriceWithTax();
     System.out.println(lemonadePrice);
+    
   }
 }
